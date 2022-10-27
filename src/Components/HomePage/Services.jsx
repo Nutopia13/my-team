@@ -17,7 +17,7 @@ const Services = () => {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delayChildren: 1, staggerChildren: 0.3 }}
+            transition={{ delayChildren: 0.5, staggerChildren: 1 }}
             className="cart_cont  space-y-12 max-w-[540px] text-center md:text-left"
           >
             <motion.div
