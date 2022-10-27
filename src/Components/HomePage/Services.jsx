@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Services = () => {
   return (
-    <div className="bg-state_green  max-h-[100vh] md:max-h-full lg:max-h-[100vh]  relative overflow-hidden text-white">
+    <div className="bg-state_green  lg:max-h-[100vh]  relative overflow-hidden text-white">
       <img src={bg_3} alt="" className="md:hidden absolute left-[71.3%]" />
       <div className="md:pt-36 pb-16 pt-16 max-w-[320px] md:max-w-2xl lg:max-w-6xl items-start mx-auto flex justify-between flex-wrap">
         <h2 className="title  relative max-w-[240px]  md:max-w-lg :max-w-[445px]">

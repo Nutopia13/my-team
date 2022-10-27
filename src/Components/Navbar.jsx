@@ -51,7 +51,7 @@ const Navbar = () => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1, ease: "easeInOut" }}
-              className="w-full h-full z-100 absolute top-0 flex justify-end bg-black/40"
+              className="w-full h-full z-50 absolute top-0 flex justify-end bg-black/40"
             >
               <motion.div
                 initial={{ x: 100, opacity: 0 }}
