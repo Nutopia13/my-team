@@ -4,11 +4,11 @@ import {motion} from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="relative -z-10">
+    <div className="relative z-10">
       <motion.div
         className="flex max-w-6xl mx-auto flex-row  flex-wrap items-end md:justify-center lg:justify-start mt-20 md:mt-32 text-center lg:text-left"
       >
-        <h1 className="hero_title max-w-[620px] mx-auto text-white">
+        <h1 className="hero_title md:max-w-[620px] max-w-[250px] mx-auto text-white">
           Find the best <span className="text-primary_coral">talent</span>
         </h1>
         <p className="pt-5 lg:relative hero_text lg:text-lg px-6 max-w-[445px] font-semibold text-white">
