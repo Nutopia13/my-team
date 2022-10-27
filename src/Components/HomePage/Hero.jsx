@@ -8,7 +8,7 @@ const Hero = () => {
       <motion.div
         className="flex max-w-6xl mx-auto flex-row  flex-wrap items-end md:justify-center lg:justify-start mt-20 md:mt-32 text-center lg:text-left"
       >
-        <h1 className="hero_title max-w-[620px]  text-white">
+        <h1 className="hero_title max-w-[620px] mx-auto text-white">
           Find the best <span className="text-primary_coral">talent</span>
         </h1>
         <p className="pt-5 lg:relative hero_text lg:text-lg px-6 max-w-[445px] font-semibold text-white">

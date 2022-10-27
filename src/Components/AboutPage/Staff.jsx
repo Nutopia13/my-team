@@ -27,12 +27,12 @@ const Staff = () => {
       <img
         src={bg_2}
         alt=""
-        className="absolute -top-24 lg:-top-12 md:top-0 lg:-left-24 md:right-[87%] right-72 "
+        className="absolute -top-20 lg:-top-12 md:top-0 lg:-left-24 md:right-[87%] right-72 "
       />
-      <div className="max-w-[320px] py-24 lg:max-w-6xl mx-auto">
+      <div className="max-w-[320px] pt-24 lg:max-w-6xl mx-auto">
         <h3 className="title mx-auto">Meet the directors</h3>
       </div>
-      <div className="py-14 gap-12 items-center flex flex-wrap max-w-[327px]  justify-center md:max-w-6xl mx-auto">
+      <div className="py-12 gap-12 items-center flex flex-wrap max-w-[327px]  justify-center md:max-w-6xl mx-auto">
         <div className="staff_cart relative z-10 w-[350px] bg-state_green flex flex-col">
           <img
             src={nikita}
